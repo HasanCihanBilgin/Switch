@@ -14,6 +14,7 @@
 		D62A3DD82C6A032900EE5AC8 /* SwitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62A3DD72C6A032900EE5AC8 /* SwitchTests.swift */; };
 		D62A3DE22C6A032900EE5AC8 /* SwitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62A3DE12C6A032900EE5AC8 /* SwitchUITests.swift */; };
 		D62A3DE42C6A032900EE5AC8 /* SwitchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62A3DE32C6A032900EE5AC8 /* SwitchUITestsLaunchTests.swift */; };
+		D62A3E282C6A329800EE5AC8 /* SwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62A3E272C6A329800EE5AC8 /* SwitchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		D62A3DDD2C6A032900EE5AC8 /* SwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D62A3DE12C6A032900EE5AC8 /* SwitchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchUITests.swift; sourceTree = "<group>"; };
 		D62A3DE32C6A032900EE5AC8 /* SwitchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D62A3E272C6A329800EE5AC8 /* SwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		D62A3DC52C6A032800EE5AC8 /* Switch */ = {
 			isa = PBXGroup;
 			children = (
+				D62A3E262C6A327700EE5AC8 /* Switchh */,
 				D62A3DC62C6A032800EE5AC8 /* SwitchApp.swift */,
 				D62A3DC82C6A032800EE5AC8 /* ContentView.swift */,
 				D62A3DCA2C6A032900EE5AC8 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				D62A3DE32C6A032900EE5AC8 /* SwitchUITestsLaunchTests.swift */,
 			);
 			path = SwitchUITests;
+			sourceTree = "<group>";
+		};
+		D62A3E262C6A327700EE5AC8 /* Switchh */ = {
+			isa = PBXGroup;
+			children = (
+				D62A3E272C6A329800EE5AC8 /* SwitchView.swift */,
+			);
+			path = Switchh;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			files = (
 				D62A3DC92C6A032800EE5AC8 /* ContentView.swift in Sources */,
 				D62A3DC72C6A032800EE5AC8 /* SwitchApp.swift in Sources */,
+				D62A3E282C6A329800EE5AC8 /* SwitchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
