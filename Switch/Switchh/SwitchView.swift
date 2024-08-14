@@ -9,8 +9,6 @@ import SwiftUI
 
 struct SwitchView: View {
     @State private var isSwitchOn1: Bool = true
-    
- 
     @State private var isSwitchOn2: Bool = false
     
     var body: some View {
@@ -21,15 +19,16 @@ struct SwitchView: View {
             
             HStack {
                 VStack(alignment: .leading) {
+                    Text("Text")
+                        .font(.body)
+                    // Bilgi simgesi "Info" metninin soluna yerleştirildi
                     HStack {
-                        Text("Text")
-                            .font(.body)
                         Image(systemName: "info.circle")
                             .foregroundColor(.yellow)
+                        Text("Info")
+                            .font(.subheadline)
+                            .foregroundColor(.gray)
                     }
-                    Text("Info")
-                        .font(.subheadline)
-                        .foregroundColor(.gray)
                 }
                 Spacer()
                 Toggle("", isOn: $isSwitchOn1)
@@ -39,15 +38,16 @@ struct SwitchView: View {
             
             HStack {
                 VStack(alignment: .leading) {
+                    Text("Text")
+                        .font(.body)
+                    // Bilgi simgesi "Info" metninin soluna yerleştirildi
                     HStack {
-                        Text("Text")
-                            .font(.body)
                         Image(systemName: "info.circle")
                             .foregroundColor(.yellow)
+                        Text("Info")
+                            .font(.subheadline)
+                            .foregroundColor(.gray)
                     }
-                    Text("Info")
-                        .font(.subheadline)
-                        .foregroundColor(.gray)
                 }
                 Spacer()
                 Toggle("", isOn: $isSwitchOn2)
